@@ -39,11 +39,21 @@ namespace LibrarySystem
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.About_Button = new System.Windows.Forms.Button();
+            this.DashBoard_Button = new System.Windows.Forms.Button();
+            this.Tip_Button = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel_top.SuspendLayout();
+            this.panel_buttom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_top
             // 
             this.panel_top.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel_top.Controls.Add(this.pictureBox1);
             this.panel_top.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_top.Location = new System.Drawing.Point(0, 0);
             this.panel_top.Name = "panel_top";
@@ -53,6 +63,9 @@ namespace LibrarySystem
             // panel_buttom
             // 
             this.panel_buttom.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel_buttom.Controls.Add(this.Tip_Button);
+            this.panel_buttom.Controls.Add(this.DashBoard_Button);
+            this.panel_buttom.Controls.Add(this.About_Button);
             this.panel_buttom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel_buttom.Location = new System.Drawing.Point(0, 395);
             this.panel_buttom.Name = "panel_buttom";
@@ -74,7 +87,7 @@ namespace LibrarySystem
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(70, 35);
+            this.label1.Location = new System.Drawing.Point(70, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 19);
             this.label1.TabIndex = 3;
@@ -145,12 +158,71 @@ namespace LibrarySystem
             this.button5.Text = "Librarains";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(855, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // About_Button
+            // 
+            this.About_Button.FlatAppearance.BorderSize = 0;
+            this.About_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.About_Button.Font = new System.Drawing.Font("Lucida Bright", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.About_Button.Location = new System.Drawing.Point(0, 0);
+            this.About_Button.Name = "About_Button";
+            this.About_Button.Size = new System.Drawing.Size(281, 54);
+            this.About_Button.TabIndex = 0;
+            this.About_Button.Text = "ABOUT US";
+            this.About_Button.UseVisualStyleBackColor = true;
+            // 
+            // DashBoard_Button
+            // 
+            this.DashBoard_Button.FlatAppearance.BorderSize = 0;
+            this.DashBoard_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DashBoard_Button.Font = new System.Drawing.Font("Lucida Bright", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.DashBoard_Button.Location = new System.Drawing.Point(279, 0);
+            this.DashBoard_Button.Name = "DashBoard_Button";
+            this.DashBoard_Button.Size = new System.Drawing.Size(324, 54);
+            this.DashBoard_Button.TabIndex = 1;
+            this.DashBoard_Button.Text = "DashBoard";
+            this.DashBoard_Button.UseVisualStyleBackColor = true;
+            // 
+            // Tip_Button
+            // 
+            this.Tip_Button.FlatAppearance.BorderSize = 0;
+            this.Tip_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tip_Button.Font = new System.Drawing.Font("Lucida Bright", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.Tip_Button.ForeColor = System.Drawing.Color.Black;
+            this.Tip_Button.Location = new System.Drawing.Point(601, 0);
+            this.Tip_Button.Name = "Tip_Button";
+            this.Tip_Button.Size = new System.Drawing.Size(279, 54);
+            this.Tip_Button.TabIndex = 2;
+            this.Tip_Button.Text = "Tips";
+            this.Tip_Button.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 26);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(52, 43);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Crimson;
             this.ClientSize = new System.Drawing.Size(880, 449);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -163,6 +235,10 @@ namespace LibrarySystem
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.panel_top.ResumeLayout(false);
+            this.panel_buttom.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,5 +255,10 @@ namespace LibrarySystem
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Tip_Button;
+        private System.Windows.Forms.Button DashBoard_Button;
+        private System.Windows.Forms.Button About_Button;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

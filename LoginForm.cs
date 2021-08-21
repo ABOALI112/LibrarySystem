@@ -16,5 +16,12 @@ namespace LibrarySystem
         {
             InitializeComponent();
         }
+
+        private void login_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+        }
     }
 }

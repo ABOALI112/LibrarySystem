@@ -88,6 +88,7 @@ namespace LibrarySystem
             this.login_button.Size = new System.Drawing.Size(127, 45);
             this.login_button.TabIndex = 4;
             this.login_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.login_button.Click += new System.EventHandler(this.login_button_Click);
             // 
             // Clear_Label
             // 
