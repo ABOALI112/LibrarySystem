@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace LibrarySystem
 {
-    public partial class MainForm : Form
+    public partial class StudentForm : Form
     {
-        public MainForm()
+        public StudentForm()
         {
             InitializeComponent();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StudentForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -22,11 +37,11 @@ namespace LibrarySystem
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Home_button_Click(object sender, EventArgs e)
         {
             this.Hide();
-            StudentForm student = new StudentForm();
-            student.Show();
+            MainForm main = new MainForm();
+            main.Show();
             
         }
     }
