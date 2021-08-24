@@ -76,11 +76,12 @@ namespace LibrarySystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.Lib_Managmnet_Label);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.Color.Transparent;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(917, 68);
@@ -100,10 +101,10 @@ namespace LibrarySystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.DarkRed;
             this.label1.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(331, 39);
+            this.label1.Location = new System.Drawing.Point(396, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 19);
             this.label1.TabIndex = 4;
@@ -112,10 +113,10 @@ namespace LibrarySystem
             // Lib_Managmnet_Label
             // 
             this.Lib_Managmnet_Label.AutoSize = true;
-            this.Lib_Managmnet_Label.BackColor = System.Drawing.Color.Transparent;
+            this.Lib_Managmnet_Label.BackColor = System.Drawing.Color.DarkRed;
             this.Lib_Managmnet_Label.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lib_Managmnet_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Lib_Managmnet_Label.Location = new System.Drawing.Point(224, 9);
+            this.Lib_Managmnet_Label.Location = new System.Drawing.Point(274, 9);
             this.Lib_Managmnet_Label.Name = "Lib_Managmnet_Label";
             this.Lib_Managmnet_Label.Size = new System.Drawing.Size(332, 19);
             this.Lib_Managmnet_Label.TabIndex = 4;
@@ -422,7 +423,7 @@ namespace LibrarySystem
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Castellar", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ForeColor = System.Drawing.Color.Silver;
             this.label2.Location = new System.Drawing.Point(18, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 16);
@@ -435,7 +436,7 @@ namespace LibrarySystem
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Castellar", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.ForeColor = System.Drawing.Color.Silver;
             this.label4.Location = new System.Drawing.Point(1, 221);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(116, 16);
@@ -447,7 +448,7 @@ namespace LibrarySystem
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Castellar", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ForeColor = System.Drawing.Color.Silver;
             this.label5.Location = new System.Drawing.Point(18, 174);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(93, 16);
@@ -459,7 +460,7 @@ namespace LibrarySystem
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Castellar", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.ForeColor = System.Drawing.Color.Silver;
             this.label6.Location = new System.Drawing.Point(37, 320);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 16);
@@ -487,7 +488,7 @@ namespace LibrarySystem
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Castellar", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ForeColor = System.Drawing.Color.Silver;
             this.label3.Location = new System.Drawing.Point(18, 268);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 16);
@@ -496,10 +497,10 @@ namespace LibrarySystem
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Crimson;
+            this.button1.BackColor = System.Drawing.Color.Maroon;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(26, 363);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 34);
@@ -509,10 +510,10 @@ namespace LibrarySystem
             // 
             // Edit_button
             // 
-            this.Edit_button.BackColor = System.Drawing.Color.Lime;
+            this.Edit_button.BackColor = System.Drawing.Color.Yellow;
             this.Edit_button.FlatAppearance.BorderSize = 0;
             this.Edit_button.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Edit_button.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Edit_button.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Edit_button.Location = new System.Drawing.Point(137, 363);
             this.Edit_button.Name = "Edit_button";
             this.Edit_button.Size = new System.Drawing.Size(85, 34);
@@ -522,10 +523,10 @@ namespace LibrarySystem
             // 
             // Delete_Button
             // 
-            this.Delete_Button.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Delete_Button.BackColor = System.Drawing.Color.Black;
             this.Delete_Button.FlatAppearance.BorderSize = 0;
             this.Delete_Button.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Delete_Button.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.Delete_Button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Delete_Button.Location = new System.Drawing.Point(236, 363);
             this.Delete_Button.Name = "Delete_Button";
             this.Delete_Button.Size = new System.Drawing.Size(85, 34);
@@ -537,7 +538,7 @@ namespace LibrarySystem
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.Student_data_Grid_View.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.Student_data_Grid_View.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.Student_data_Grid_View.BackgroundColor = System.Drawing.Color.White;
+            this.Student_data_Grid_View.BackgroundColor = System.Drawing.Color.Silver;
             this.Student_data_Grid_View.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Student_data_Grid_View.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Student_data_Grid_View.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -560,18 +561,18 @@ namespace LibrarySystem
             this.Student_data_Grid_View.DefaultCellStyle = dataGridViewCellStyle3;
             this.Student_data_Grid_View.EnableHeadersVisualStyles = false;
             this.Student_data_Grid_View.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.Student_data_Grid_View.Location = new System.Drawing.Point(404, 70);
+            this.Student_data_Grid_View.Location = new System.Drawing.Point(414, 74);
             this.Student_data_Grid_View.Name = "Student_data_Grid_View";
             this.Student_data_Grid_View.RowHeadersVisible = false;
             this.Student_data_Grid_View.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Student_data_Grid_View.Size = new System.Drawing.Size(491, 410);
+            this.Student_data_Grid_View.Size = new System.Drawing.Size(491, 450);
             this.Student_data_Grid_View.TabIndex = 8;
             this.Student_data_Grid_View.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.Student_data_Grid_View.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.Student_data_Grid_View.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.Student_data_Grid_View.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.Student_data_Grid_View.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.Student_data_Grid_View.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.Student_data_Grid_View.ThemeStyle.BackColor = System.Drawing.Color.Silver;
             this.Student_data_Grid_View.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.Student_data_Grid_View.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.Student_data_Grid_View.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -590,10 +591,10 @@ namespace LibrarySystem
             // 
             // Home_button
             // 
-            this.Home_button.BackColor = System.Drawing.Color.Orange;
+            this.Home_button.BackColor = System.Drawing.Color.Silver;
             this.Home_button.FlatAppearance.BorderSize = 0;
             this.Home_button.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Home_button.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Home_button.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Home_button.Location = new System.Drawing.Point(137, 403);
             this.Home_button.Name = "Home_button";
             this.Home_button.Size = new System.Drawing.Size(85, 34);
@@ -604,19 +605,19 @@ namespace LibrarySystem
             // 
             // Bottom_panel
             // 
-            this.Bottom_panel.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Bottom_panel.BackColor = System.Drawing.Color.Black;
             this.Bottom_panel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Bottom_panel.Location = new System.Drawing.Point(0, 482);
+            this.Bottom_panel.Location = new System.Drawing.Point(0, 530);
             this.Bottom_panel.Name = "Bottom_panel";
-            this.Bottom_panel.Size = new System.Drawing.Size(917, 10);
+            this.Bottom_panel.Size = new System.Drawing.Size(917, 20);
             this.Bottom_panel.TabIndex = 9;
             // 
             // StudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSalmon;
-            this.ClientSize = new System.Drawing.Size(917, 492);
+            this.BackColor = System.Drawing.Color.DarkRed;
+            this.ClientSize = new System.Drawing.Size(917, 550);
             this.Controls.Add(this.Bottom_panel);
             this.Controls.Add(this.Student_data_Grid_View);
             this.Controls.Add(this.Delete_Button);
